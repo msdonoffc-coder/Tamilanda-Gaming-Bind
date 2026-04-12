@@ -1,0 +1,21 @@
+{
+  "name": "tamilanda-bind-manager",
+  "version": "1.0.0",
+  "description": "Tamilanda Gaming — Free Fire Account Email Bind Manager",
+  "type": "module",
+  "scripts": {
+    "start": "node server.js",
+    "setup": "node setup-db.js",
+    "dev": "node --watch server.js"
+  },
+  "dependencies": {
+    "cors": "^2.8.5",
+    "dotenv": "^16.4.5",
+    "drizzle-orm": "^0.40.1",
+    "express": "^4.19.2",
+    "postgres": "^3.4.4"
+  },
+  "engines": {
+    "node": ">=18.0.0"
+  }
+}

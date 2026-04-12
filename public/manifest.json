@@ -1,0 +1,45 @@
+{
+  "name": "Tamilanda Bind Manager",
+  "short_name": "TamilandaBM",
+  "description": "Premium Garena Free Fire email bind management — secure, instant, trusted.",
+  "start_url": "/",
+  "display": "standalone",
+  "orientation": "portrait",
+  "background_color": "#020212",
+  "theme_color": "#020212",
+  "lang": "en",
+  "scope": "/",
+  "categories": ["utilities", "games"],
+  "icons": [
+    {
+      "src": "/logo.jpg",
+      "sizes": "192x192",
+      "type": "image/jpeg",
+      "purpose": "any"
+    },
+    {
+      "src": "/logo.jpg",
+      "sizes": "512x512",
+      "type": "image/jpeg",
+      "purpose": "any maskable"
+    }
+  ],
+  "shortcuts": [
+    {
+      "name": "Check Email",
+      "short_name": "Check",
+      "description": "Check recovery email status",
+      "url": "/?tab=operation",
+      "icons": [{ "src": "/logo.jpg", "sizes": "96x96" }]
+    }
+  ],
+  "screenshots": [
+    {
+      "src": "/opengraph.jpg",
+      "sizes": "1200x630",
+      "type": "image/jpeg",
+      "form_factor": "wide",
+      "label": "Tamilanda Bind Manager Dashboard"
+    }
+  ]
+}
